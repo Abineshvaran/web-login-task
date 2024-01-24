@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <title>Login Form</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+
+    <div class="container">
+
+
+        <h1 class="label">User Login <i class="fa-solid fa-user fa-bounce"></i></h1>
+
+
+        <form class="login_form" action="home.html" method="post" name="form" onsubmit="return validated()">
+
+            <div class="font">Email or Phone</div>
+
+            <input autocomplete="off" type="text" name="email">
+
+            <div id="email_error">Please fill up your Email or Phone</div>
+
+            <div class="font font2">Password</div>
+
+            <input type="password" name="password">
+
+            <div id="pass_error">Please fill up yourPassword</div> <button type="submit">Login</button>
+
+        </form>
+
+
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
